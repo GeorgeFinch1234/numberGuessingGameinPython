@@ -20,12 +20,12 @@ while(hiddenNumber != userGuessInt):
          whichSide = "lower"
     else:
          whichSide = "higher"
-    print(f"that number is {whichSide} than guess")
+    print(f"That number is {whichSide} than your guess")
 
     userGuessInt = getUserSelection()
     
 else:
-     print("Congradulations, you have won")
+     print("Congratulations, you have won")
     
 
 
